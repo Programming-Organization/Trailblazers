@@ -38,6 +38,7 @@ public class Main extends JPanel implements Runnable, MouseMotionListener, Compo
 	}
 	
 	// if you don't know what this is, then you actually are not intelligent
+	//oh? u wanna fight? lets go! in the back of the cvs. 2 AM. You know the one
 	public void paint(Graphics g) {
 		g.setColor(Color.black);
 		g.fillRect((int)Math.round(p.x), (int)Math.round(p.y), p.width, p.height);
